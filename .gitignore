@@ -10,7 +10,7 @@
 # Training artifacts
 **/checkpoint-*/
 **/runs/
-**/logs/
+# **/logs/ <- Uncomment if you want to ignore all logs
 **/wandb/
 
 # Training results

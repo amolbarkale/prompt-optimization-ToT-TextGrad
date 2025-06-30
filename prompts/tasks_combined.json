@@ -1,0 +1,44 @@
+[
+  {
+    "domain": "multi-step math",
+    "task_id": "task_01",
+    "title": "Train and Distance Problem",
+    "problem": "A train travels 60 km in the first hour and 90 km in the second hour. If the train continues at the average speed of the first two hours for another 2 hours, how far will it travel in total?",
+    "expected_solution": "60 + 90 = 150 km in 2 hours \u2192 average speed = 75 km/h \u2192 additional 2 hours = 150 km \u2192 total = 150 + 150 = 300 km"
+  },
+  {
+    "domain": "logic puzzle",
+    "task_id": "task_02",
+    "title": "Truth-Teller and Liar",
+    "problem": "Alice says, 'Bob is lying.' Bob says, 'Both of us are liars.' Who is telling the truth?",
+    "expected_solution": "If Bob were telling the truth, then he is a liar (contradiction). So Bob is lying. Alice is telling the truth."
+  },
+  {
+    "domain": "code debugging",
+    "task_id": "task_03",
+    "title": "Bug in Python Loop",
+    "problem": "The following code is supposed to print even numbers from 0 to 10, but it prints all numbers instead. Identify the bug:\n\nfor i in range(11):\n    print(i)",
+    "expected_solution": "Missing conditional. Should be:\nfor i in range(11):\n    if i % 2 == 0:\n        print(i)"
+  },
+  {
+    "domain": "natural language deduction",
+    "task_id": "task_04",
+    "title": "Inference from Statement",
+    "problem": "If all cats are mammals and some mammals are black, can we conclude that some cats are black?\nNote: Base your answer only on the logical structure of the statements, without assuming any additional facts.",
+    "expected_solution": "No. The statements do not guarantee that any cats are black."
+  },
+  {
+    "domain": "algorithm tracing",
+    "task_id": "task_05",
+    "title": "Stack Operation Trace",
+    "problem": "Given the operations: push(1), push(2), pop(), push(3), pop(). What is left on the stack?",
+    "expected_solution": "push(1) \u2192 [1], push(2) \u2192 [1,2], pop() \u2192 [1], push(3) \u2192 [1,3], pop() \u2192 [1]. Final stack: [1]"
+  },
+  {
+    "domain": "grid puzzle",
+    "task_id": "task_06",
+    "title": "Simple Sudoku Deduction",
+    "problem": "In a 3x3 mini-Sudoku, the first row is [1, _, 3], and the second row is [_, 3, 1]. What number must go in the empty cell in the first row?",
+    "expected_solution": "Only number left is 2 (since 1 and 3 are already present in row)."
+  }
+]
