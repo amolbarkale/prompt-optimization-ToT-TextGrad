@@ -1,0 +1,52 @@
+# Model files and checkpoints
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.h5
+*.pb
+
+# Training artifacts
+**/checkpoint-*/
+**/runs/
+**/logs/
+**/wandb/
+
+# Training results
+training_results_*.json
+training_logs_*.txt
+
+# Cache directories
+**/__pycache__/
+**/.cache/
+**/cache/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data files
+*.data
+*.db
+*.sqlite
+*.pkl
+*.pickle
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# HuggingFace cache
+.huggingface/ 
